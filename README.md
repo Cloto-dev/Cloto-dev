@@ -1,5 +1,7 @@
 ## Cloto-dev
 
+<sub><b>English</b> · <a href="#日本語">日本語</a></sub>
+
 I build tools that give AI agents something to stand on: memory that survives a
 session, retrieval that can be reasoned about, and a protocol layer for agents
 that have to talk to each other. Solo developer, in Japan.
@@ -39,4 +41,49 @@ thing that helps most:
 
 - [ClotoHub](https://hub.cloto.dev) — server marketplace and integrity verification for MGP
 - [Zenn](https://zenn.dev/cloto) — longer writing, in Japanese
+- [X](https://x.com/cloto_dev)
+
+---
+
+## 日本語
+
+<sub><a href="#cloto-dev">English</a> · <b>日本語</b></sub>
+
+AI エージェントが立つための足場を作っています。セッションをまたいで残る記憶、
+根拠をたどれる検索、そしてエージェント同士が話すためのプロトコル層。
+日本で個人開発しています。
+
+公開しているものの多くは、自分が必要で作り、そのまま使い続けているものです。
+
+### プロジェクト
+
+| プロジェクト | 概要 | ライセンス |
+| --- | --- | --- |
+| **[CPersona](https://github.com/Cloto-dev/cpersona)** | MCP メモリサーバー。SQLite ファイル 1 つ、ベクトルと全文検索のハイブリッド、検索経路に LLM を使わない。Claude Desktop / Claude Code / 任意の MCP ホストで動く。 | MIT |
+| **[CEmbedding](https://github.com/Cloto-dev/CEmbedding)** | ローカル優先の埋め込みサーバー。ONNX のオンデバイス実行、お好みで API バックエンドも。CPersona の参照 `/embed` サーバー。 | MIT |
+| **[ClotoCore](https://github.com/Cloto-dev/ClotoCore)** | 自分の AI エージェントを動かすデスクトップ基盤。イベント駆動で拡張可能。 | BSL 1.1、2028-02-14 に MIT へ移行 |
+| **[MGP](https://github.com/Cloto-dev/mgp-spec)** | Multi-Agent Gateway Protocol — エージェント間通信のための MCP 厳密スーパーセット。仕様と、[Rust](https://github.com/Cloto-dev/mgp-rs) / [Python](https://github.com/Cloto-dev/mgp-py) の参照実装。 | MIT |
+
+### このプロジェクトを支える
+
+上記はすべて、支援の有無にかかわらずライセンスの条件で自由に使えます。
+支援者だけが使える部分はなく、issue は影響度・再現性・安全性で判断します —
+それは誰に対しても同じです。
+
+どれかが役に立って、続いてほしいと思っていただけたなら、
+[GitHub Sponsors](https://github.com/sponsors/Cloto-dev) が全体をまとめて支える唯一の窓口です。
+単発・月額のどちらも同じように歓迎で、どちらも必須ではありません。
+
+金銭以外でも助かります。というより、この規模のプロジェクトではそちらの方が効きます:
+
+- リポジトリに Star を付ける — 次の人が見つけやすくなります
+- セットアップのどこで詰まったかを教える — それはドキュメントの不具合なので、知りたいです
+- 再現手順つきで issue を立てる
+- ドキュメントの 1 文を直す、あるいは「あってほしかった例」を足す
+- これらが解く問題を抱えている人に伝える
+
+### その他
+
+- [ClotoHub](https://hub.cloto.dev) — MGP サーバーのマーケットプレイスと完全性検証
+- [Zenn](https://zenn.dev/cloto) — 長めの文章(日本語)
 - [X](https://x.com/cloto_dev)
