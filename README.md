@@ -41,7 +41,7 @@ thing that helps most:
 
 - [ClotoHub](https://hub.cloto.dev) — server marketplace and integrity verification for MGP
 - [Zenn](https://zenn.dev/cloto) — longer writing, in Japanese
-- [X](https://x.com/cloto_dev)
+- [X: @CPersona_](https://x.com/CPersona_) — CPersona news
 
 ---
 
@@ -86,4 +86,4 @@ AI エージェントが立つための足場を作っています。セッシ�
 
 - [ClotoHub](https://hub.cloto.dev) — MGP サーバーのマーケットプレイスと完全性検証
 - [Zenn](https://zenn.dev/cloto) — 長めの文章(日本語)
-- [X](https://x.com/cloto_dev)
+- [X: @CPersona_](https://x.com/CPersona_) — CPersona のお知らせ
